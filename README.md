@@ -12,12 +12,12 @@ Uses MPI to communicate with processors and submit the job to the Server.
 
 **RUN:**
 
-_.pbs_** files are the job files that are submitted to the cluster where we specify the number of nodes, name of the executable file, and all other configurations for the job to run.
+**_.pbs_** files are the job files that are submitted to the cluster where we specify the number of nodes, name of the executable file, and all other configurations for the job to run.
 
-_.pl_** files are the script files that automate the whole process by executing the c program and submitting the .pbs job to the cluster.
+**_.pl_** files are the script files that automate the whole process by executing the c program and submitting the .pbs job to the cluster.
 
-_.err_** files give any error while executing the job
+**_.err_** files give any error while executing the job
 
-_.out_** files are the output files of the job being executed
+**_.out_** files are the output files of the job being executed
 
 Run the .pl file to start the program execution on the server.

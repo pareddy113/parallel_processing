@@ -1,0 +1,12 @@
+#!/bin/bash 
+#PBS -l nodes=1:ppn=7,walltime=50:00 
+#PBS -N rings
+#PBS -q edu_shared 
+#PBS -m abe 
+#PBS -M apenug2@uic.edu 
+#PBS -e rings.err
+#PBS -o rings.out 
+#PBS -d /export/home/apenug2
+module load tools/mpich2-1.5-gcc
+
+mpirun -machinefile $PBS_NODEFILE -np $PBS_NP ./rings

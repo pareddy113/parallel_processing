@@ -1,5 +1,4 @@
 # parallel_processing
-parallel processing course project 1
 
 
 To introduce to run very simple MPI-2 programs (use C) on the EXTREME cluster and familiarize with simple MPI-2 calls, and how to execute programs on clusters.
@@ -11,13 +10,14 @@ Use and familiarize with different topologies such as Ring, Tree and Hypercube w
 Uses MPI to communicate with processors and submit the job to the Server.
 
 
-RUN:
-.pbs files are the job files that are submitted to the cluster where we specify the number of nodes, name of the executable file, and all other configurations for the job to run.
+**RUN:**
 
-.pl files are the script files that automate the whole process by executing the c program and submitting the .pbs job to the cluster.
+_.pbs_** files are the job files that are submitted to the cluster where we specify the number of nodes, name of the executable file, and all other configurations for the job to run.
 
-.err files give any error while executing the job
+_.pl_** files are the script files that automate the whole process by executing the c program and submitting the .pbs job to the cluster.
 
-.out files are the output files of the job being executed
+_.err_** files give any error while executing the job
+
+_.out_** files are the output files of the job being executed
 
 Run the .pl file to start the program execution on the server.
